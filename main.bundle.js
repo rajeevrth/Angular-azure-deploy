@@ -21,6 +21,8 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__technology_technology_component__ = __webpack_require__("../../../../../src/app/technology/technology.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tech_history_tech_history_component__ = __webpack_require__("../../../../../src/app/tech-history/tech-history.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__contact_us_contact_us_component__ = __webpack_require__("../../../../../src/app/contact-us/contact-us.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__our_products_our_products_component__ = __webpack_require__("../../../../../src/app/our-products/our-products.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -32,6 +34,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var appRoutes = [
     {
         path: 'technology',
@@ -39,6 +43,12 @@ var appRoutes = [
     }, {
         path: 'tech-history',
         component: __WEBPACK_IMPORTED_MODULE_3__tech_history_tech_history_component__["a" /* TechHistoryComponent */]
+    }, {
+        path: 'contact-us',
+        component: __WEBPACK_IMPORTED_MODULE_4__contact_us_contact_us_component__["a" /* ContactUsComponent */]
+    }, {
+        path: 'our-products',
+        component: __WEBPACK_IMPORTED_MODULE_5__our_products_our_products_component__["a" /* OurProductsComponent */]
     }, {
         path: '',
         redirectTo: '/technology',
@@ -111,7 +121,7 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.css")]
@@ -130,11 +140,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__technology_technology_component__ = __webpack_require__("../../../../../src/app/technology/technology.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__tech_history_tech_history_component__ = __webpack_require__("../../../../../src/app/tech-history/tech-history.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__technology_technology_component__ = __webpack_require__("../../../../../src/app/technology/technology.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tech_history_tech_history_component__ = __webpack_require__("../../../../../src/app/tech-history/tech-history.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__contact_us_contact_us_component__ = __webpack_require__("../../../../../src/app/contact-us/contact-us.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__our_products_our_products_component__ = __webpack_require__("../../../../../src/app/our-products/our-products.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -154,6 +167,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
 var AppModule = (function () {
     // Diagnostic only: inspect router configuration
     function AppModule(router) {
@@ -164,19 +180,168 @@ var AppModule = (function () {
 AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */], __WEBPACK_IMPORTED_MODULE_5__header_header_component__["a" /* HeaderComponent */], __WEBPACK_IMPORTED_MODULE_6__technology_technology_component__["a" /* TechnologyComponent */], __WEBPACK_IMPORTED_MODULE_7__footer_footer_component__["a" /* FooterComponent */], __WEBPACK_IMPORTED_MODULE_8__tech_history_tech_history_component__["a" /* TechHistoryComponent */]
+            __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */], __WEBPACK_IMPORTED_MODULE_6__header_header_component__["a" /* HeaderComponent */], __WEBPACK_IMPORTED_MODULE_7__technology_technology_component__["a" /* TechnologyComponent */], __WEBPACK_IMPORTED_MODULE_8__footer_footer_component__["a" /* FooterComponent */], __WEBPACK_IMPORTED_MODULE_9__tech_history_tech_history_component__["a" /* TechHistoryComponent */], __WEBPACK_IMPORTED_MODULE_10__contact_us_contact_us_component__["a" /* ContactUsComponent */], __WEBPACK_IMPORTED_MODULE_11__our_products_our_products_component__["a" /* OurProductsComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_2__app_routing_module__["a" /* AppRoutingModule */]
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_2__app_routing_module__["a" /* AppRoutingModule */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormsModule */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["b" /* ReactiveFormsModule */]
         ],
         providers: [],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* Router */]) === "function" && _a || Object])
 ], AppModule);
 
 var _a;
 //# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/contact-us/contact-class.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Contact; });
+var Contact = (function () {
+    function Contact(name, email, subject, message) {
+        this.name = name;
+        this.email = email;
+        this.subject = subject;
+        this.message = message;
+    }
+    return Contact;
+}());
+
+//# sourceMappingURL=contact-class.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/contact-us/contact-us.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".alert-danger\r\n{\r\n    background-color: rgb(0, 41, 102);\r\n    color:yellowgreen;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/contact-us/contact-us.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<form [formGroup]=\"contactForm\" (ngSubmit)=\"onSubmit()\">\n  <section id=\"contact\" class=\"content-section text-center\">\n    <div class=\"contact-section\">\n      <div class=\"container\">\n        <h2>Contact Us</h2>\n        <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>\n        <div class=\"row\">\n          <div class=\"col-md-8 col-md-offset-2\">\n              <div class=\"form-group\">\n                <label for=\"txtName\">Name</label>\n                <input type=\"text\" class=\"form-control\" id=\"txtName\" placeholder=\"Jane Doe\" formControlName=\"name\" required>\n                <div *ngIf=\"formErrors.name\" class=\"alert alert-danger\">\n                  {{ formErrors.name }}\n                </div>\n              </div>\n\n              <div class=\"form-group\">\n                <label for=\"email\">Email</label>\n                <input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"jane.doe@example.com\" formControlName=\"email\" required>\n                <div *ngIf=\"formErrors.email\" class=\"alert alert-danger\">\n                  {{ formErrors.email }}\n                </div>\n              </div>\n              <div class=\"form-group\">\n                <label for=\"txtSubject\">Subject</label>\n                <input type=\"text\" class=\"form-control\" id=\"txtSubject\" placeholder=\"Subject\" formControlName=\"subject\" required>\n                <div *ngIf=\"formErrors.subject\" class=\"alert alert-danger\">\n                  {{ formErrors.subject }}\n                </div>\n              </div>\n              <div class=\"form-group \">\n                <label for=\"Description\">Your Message</label>\n                <textarea class=\"form-control\" placeholder=\"Description\" name=\"Description\"></textarea>\n              </div>\n              <button type=\"submit\" class=\"btn btn-default\" [disabled]=\"!contactForm.valid\">Send Message</button>\n\n            <hr>\n            <h3>Our Social Sites</h3>\n            <ul class=\"list-inline banner-social-buttons\">\n              <li><a href=\"#\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-twitter\"> <span class=\"network-name\">Twitter</span></i></a></li>\n              <li><a href=\"#\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-facebook\"> <span class=\"network-name\">Facebook</span></i></a></li>\n              <li><a href=\"#\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-youtube-play\"> <span class=\"network-name\">Youtube</span></i></a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</form>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/contact-us/contact-us.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contact_class__ = __webpack_require__("../../../../../src/app/contact-us/contact-class.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactUsComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ContactUsComponent = (function () {
+    function ContactUsComponent(fb) {
+        this.fb = fb;
+        this.emailRegex = '^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$';
+        this.formErrors = {
+            'name': '',
+            'email': '',
+            'subject': ''
+        };
+        this.validationMessages = {
+            'name': {
+                'required': 'Name is required.',
+                'minlength': 'Name must be at least 4 characters long.',
+                'maxlength': 'Name cannot be more than 24 characters long.'
+            },
+            'email': {
+                'required': 'Email is required.',
+                'email': 'Email is not Correct'
+            },
+            'subject': {
+                'required': 'Subject is required.'
+            }
+        };
+    }
+    ContactUsComponent.prototype.ngOnInit = function () {
+        debugger;
+        this.contact = new __WEBPACK_IMPORTED_MODULE_1__contact_class__["a" /* Contact */]("Rajeev", "rajeev.inform@gmail.com", "Hey, I have a suggestion", " ");
+        this.buildForm();
+    };
+    ContactUsComponent.prototype.buildForm = function () {
+        var _this = this;
+        this.contactForm = this
+            .fb
+            .group({
+            'name': [
+                this.contact.name,
+                [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].minLength(4),
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].maxLength(24),
+                ]
+            ],
+            'email': [
+                this.contact.email,
+                [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].email]
+            ],
+            'subject': [
+                this.contact.subject,
+                [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* Validators */].required]
+            ]
+        });
+        this
+            .contactForm
+            .valueChanges
+            .subscribe(function (data) { return _this.onValueChanged(data); });
+        this.onValueChanged(); // (re)set validation messages now
+    };
+    ContactUsComponent.prototype.onValueChanged = function (data) {
+        if (!this.contactForm) {
+            return;
+        }
+        var form = this.contactForm;
+        for (var field in this.formErrors) {
+            // clear previous error message (if any)
+            this.formErrors[field] = '';
+            var control = form.get(field);
+            if (control && control.dirty && !control.valid) {
+                var messages = this.validationMessages[field];
+                for (var key in control.errors) {
+                    this.formErrors[field] += messages[key] + ' ';
+                }
+            }
+        }
+    };
+    return ContactUsComponent;
+}());
+ContactUsComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({ selector: 'app-contact-us', template: __webpack_require__("../../../../../src/app/contact-us/contact-us.component.html"), styles: [__webpack_require__("../../../../../src/app/contact-us/contact-us.component.css")] }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["d" /* FormBuilder */]) === "function" && _a || Object])
+], ContactUsComponent);
+
+var _a;
+//# sourceMappingURL=contact-us.component.js.map
 
 /***/ }),
 
@@ -229,7 +394,7 @@ var FooterComponent = (function () {
     return FooterComponent;
 }());
 FooterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-footer',
         template: __webpack_require__("../../../../../src/app/footer/footer.component.html"),
         styles: [__webpack_require__("../../../../../src/app/footer/footer.component.css")]
@@ -262,7 +427,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n        aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Ng-app</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li><a routerLink=\"/technology\" routerLinkActive=\"active\">Technology </a></li>\n\n        <li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Trending <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Javascript Frameworks</a></li>\n            <li><a href=\"#\">Mobile Technology</a></li>\n            <li><a href=\"#\">Artificial Intelligence</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Big Data</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">More...</a></li>\n          </ul>\n        </li>\n        <li><a a routerLink=\"/tech-history\" routerLinkActive=\"active\">Latest Updates</a></li>\n                <li><a href=\"#\">Our Products</a></li>\n        <li><a a routerLink=\"/contact-us\" routerLinkActive=\"active\">Contact Us</a></li>\n      </ul>\n      <form class=\"navbar-form navbar-right\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\" disabled>\n        </div>\n        <button type=\"submit\" class=\"btn btn-success\" disabled>Search</button>\n      </form>\n\n    </div>\n    <!-- /.navbar-collapse -->\n  </div>\n  <!-- /.container-fluid -->\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n        aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Ng-app</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li><a routerLink=\"/technology\" routerLinkActive=\"active\">Technology </a></li>\n\n        <!--<li class=\"dropdown\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Trending <span class=\"caret\"></span></a>\n          <ul class=\"dropdown-menu\">\n            <li><a href=\"#\">Javascript Frameworks</a></li>\n            <li><a href=\"#\">Mobile Technology</a></li>\n            <li><a href=\"#\">Artificial Intelligence</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">Big Data</a></li>\n            <li role=\"separator\" class=\"divider\"></li>\n            <li><a href=\"#\">More...</a></li>\n          </ul>\n        </li>-->\n        <li><a a routerLink=\"/tech-history\" routerLinkActive=\"active\">Tips & Tricks</a></li>\n        <li><a a routerLink=\"/tech-history\" routerLinkActive=\"active\">App Reviews</a></li>\n                <li><a routerLink=\"/our-products\" routerLinkActive=\"active\">Our Products</a></li>\n        <li><a routerLink=\"/contact-us\" routerLinkActive=\"active\">Contact Us</a></li>\n      </ul>\n      <form class=\"navbar-form navbar-right\">\n        <div class=\"form-group\">\n          <input type=\"text\" class=\"form-control\" placeholder=\"Search\" disabled>\n        </div>\n        <button type=\"submit\" class=\"btn btn-success\" disabled>Search</button>\n      </form>\n\n    </div>\n    <!-- /.navbar-collapse -->\n  </div>\n  <!-- /.container-fluid -->\n</nav>\n"
 
 /***/ }),
 
@@ -290,7 +455,7 @@ var HeaderComponent = (function () {
     return HeaderComponent;
 }());
 HeaderComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-header',
         template: __webpack_require__("../../../../../src/app/header/header.component.html"),
         styles: [__webpack_require__("../../../../../src/app/header/header.component.css")]
@@ -299,6 +464,67 @@ HeaderComponent = __decorate([
 ], HeaderComponent);
 
 //# sourceMappingURL=header.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/our-products/our-products.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/our-products/our-products.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  our-products works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/our-products/our-products.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OurProductsComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var OurProductsComponent = (function () {
+    function OurProductsComponent() {
+    }
+    OurProductsComponent.prototype.ngOnInit = function () {
+    };
+    return OurProductsComponent;
+}());
+OurProductsComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
+        selector: 'app-our-products',
+        template: __webpack_require__("../../../../../src/app/our-products/our-products.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/our-products/our-products.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], OurProductsComponent);
+
+//# sourceMappingURL=our-products.component.js.map
 
 /***/ }),
 
@@ -351,7 +577,7 @@ var TechHistoryComponent = (function () {
     return TechHistoryComponent;
 }());
 TechHistoryComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-tech-history',
         template: __webpack_require__("../../../../../src/app/tech-history/tech-history.component.html"),
         styles: [__webpack_require__("../../../../../src/app/tech-history/tech-history.component.css")]
@@ -384,7 +610,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/technology/technology.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"customHeight\">\n  <div class=\"carousel fade-carousel slide\" data-ride=\"carousel\" data-interval=\"4000\" id=\"bs-carousel\">\n    <!-- Overlay -->\n    <div class=\"overlay\"></div>\n\n    <!-- Indicators -->\n    <ol class=\"carousel-indicators\">\n      <li data-target=\"#bs-carousel\" data-slide-to=\"0\" class=\"active\"></li>\n      <li data-target=\"#bs-carousel\" data-slide-to=\"1\"></li>\n      <li data-target=\"#bs-carousel\" data-slide-to=\"2\"></li>\n    </ol>\n\n    <!-- Wrapper for slides -->\n    <div class=\"carousel-inner\">\n      <div class=\"item slides active\">\n        <div class=\"slide-1\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Latest Technology</h1>\n            <h3>Get start your next awesome project</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-2\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Trending</h1>\n            <h3>Get start your next awesome project</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-3\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Technical History</h1>\n            <h3>Get amazing historical facts related to Technical World</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-4\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Contact Us</h1>\n            <h3>Give your Feedback</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">Contact</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"container\">\n  <div id=\"blog\" class=\"row\">\n\n    <div class=\"col-md-10 blogShort\">\n      <h1>Amazing Javascript Frameworks</h1>\n      <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n      <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n      <article>\n        <p>\n          <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n          upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n          evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n          more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n          is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n        </p>\n      </article>\n      <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n    </div>\n    <div class=\"col-md-10 blogShort\">\n      <h1>Google will no longer read your email to serve you ads</h1>\n      <img src=\"../../assets/images/google.jpg\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n      <article>\n        <p>\n          Privacy advocates have long criticized Google's practice of using email data to tailor advertising, but now the company is\n          putting an end to the method. Google (GOOG) announced the change in a blog post on Friday. It will go into effect\n          later this year The move is in line with Google's existing G Suite Gmail service for businesses, which doesn't\n          scan email data for personalized ads. Now its free Gmail service will have the same rules. But this doesn't mean\n          you won't see targeted ads in Gmail. Instead, they'll be personalized with information gleaned from other sources....\n        </p>\n      </article>\n      <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n    </div>\n\n    <div class=\"col-md-10 blogShort\">\n      <h1>Amazing Javascript Frameworks</h1>\n      <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n      <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n      <article>\n        <p>\n          <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n          upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n          evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n          more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n          is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n        </p>\n      </article>\n      <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n    </div>\n\n    <div class=\"col-md-10 blogShort\">\n      <h1>Amazing Javascript Frameworks</h1>\n      <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n      <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n      <article>\n        <p>\n          <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n          upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n          evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n          more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n          is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n        </p>\n      </article>\n      <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n    </div>\n\n    <div class=\"col-md-10 blogShort\">\n      <article>\n        </article>\n    </div>\n\n\n\n    <div class=\"col-md-12 gap10\"></div>\n  </div>\n</div>"
+module.exports = "<div class=\"customHeight\">\n  <div class=\"carousel fade-carousel slide\" data-ride=\"carousel\" data-interval=\"4000\" id=\"bs-carousel\">\n    <!-- Overlay -->\n    <div class=\"overlay\"></div>\n\n    <!-- Indicators -->\n    <ol class=\"carousel-indicators\">\n      <li data-target=\"#bs-carousel\" data-slide-to=\"0\" class=\"active\"></li>\n      <li data-target=\"#bs-carousel\" data-slide-to=\"1\"></li>\n      <li data-target=\"#bs-carousel\" data-slide-to=\"2\"></li>\n      <li data-target=\"#bs-carousel\" data-slide-to=\"3\"></li>\n    </ol>\n\n    <!-- Wrapper for slides -->\n    <div class=\"carousel-inner\">\n      <div class=\"item slides active\">\n        <div class=\"slide-1\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Latest Technology</h1>\n            <h3>Get start your next awesome project</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-2\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Our Products</h1>\n            <h3>Get start with our next awesome project</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-3\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Latest Updates</h1>\n            <h3>Get amazing historical facts related to Technical World</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">See all features</button>\n        </div>\n      </div>\n      <div class=\"item slides\">\n        <div class=\"slide-4\"></div>\n        <div class=\"hero\">\n          <article>\n            <h1>Contact Us</h1>\n            <h3>Give your Feedback</h3>\n          </article>\n          <button class=\"btn btn-hero btn-lg\" role=\"button\">Contact</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"container\">\n  <div id=\"blog\" class=\"row\">\n    <div class=\"row\">\n      <div class=\"col-md-6 blogShort\">\n        <h1>Women safety apps</h1>\n        <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n        <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n        <article>\n          <p>\n            <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n            upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n            evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n            more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n            is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n          </p>\n        </article>\n        <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n      </div>\n      <div class=\"col-md-6 blogShort\">\n        <h1>Google will no longer read your email to serve you ads</h1>\n        <img src=\"../../assets/images/google.jpg\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n        <article>\n          <p>\n            Privacy advocates have long criticized Google's practice of using email data to tailor advertising, but now the company is\n            putting an end to the method. Google (GOOG) announced the change in a blog post on Friday. It will go into effect\n            later this year The move is in line with Google's existing G Suite Gmail service for businesses, which doesn't\n            scan email data for personalized ads. Now its free Gmail service will have the same rules.....\n          </p>\n        </article>\n        <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n      </div>\n    </div>\n\n    <div class=\"row\">\n      <div class=\"col-md-6 blogShort\">\n        <h1>Amazing Javascript Frameworks</h1>\n        <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n        <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n        <article>\n          <p>\n            <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n            upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n            evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n            more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n            is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n          </p>\n        </article>\n        <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n      </div>\n\n      <div class=\"col-md-6 blogShort\">\n        <h1>Amazing Javascript Frameworks</h1>\n        <img src=\"../../assets/images/angular2_logo.png\" alt=\"post img\" class=\"pull-left img-responsive thumb margin10 img-thumbnail\">\n\n        <em>By <a href=\"http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation\" target=\"_blank\">Administrator</a></em>\n        <article>\n          <p>\n            <b>J</b>avaScript popularity continues its rising. In 2016 we’ve witnessed such great changes, as AngularJS entire\n            upgrade and introduction of Angular 2, ultimate dominating of jQuery that is applied on 96.5% of all JS sites,\n            evolution of ECMAScript, two updates of Node.js in April and October accordingly, React finest hours, and even\n            more. What to expect from 2017? — Here’s what we know so far: Angular 4 is expected in March 2017, ES2017 edition\n            is planned for mid-2017, Bootstrap v4 release should be anticipated this year as well....\n          </p>\n        </article>\n        <a class=\"btn btn-blog pull-right marginBottom10\" href=\"http://bootsnipp.com/user/snippets/2RoQ\">READ MORE</a>\n      </div>\n    </div>\n\n    <div class=\"col-md-10 blogShort\">\n      <article>\n      </article>\n    </div>\n\n\n\n    <div class=\"col-md-12 gap10\"></div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -412,7 +638,7 @@ var TechnologyComponent = (function () {
     return TechnologyComponent;
 }());
 TechnologyComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({ selector: 'app-technology', template: __webpack_require__("../../../../../src/app/technology/technology.component.html"), styles: [__webpack_require__("../../../../../src/app/technology/technology.component.css")] }),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({ selector: 'app-technology', template: __webpack_require__("../../../../../src/app/technology/technology.component.html"), styles: [__webpack_require__("../../../../../src/app/technology/technology.component.css")] }),
     __metadata("design:paramtypes", [])
 ], TechnologyComponent);
 
